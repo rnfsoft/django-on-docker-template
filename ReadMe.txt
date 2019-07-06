@@ -1,5 +1,10 @@
 Tutorial: https://testdriven.io/blog/dockerizing-django-with-postgres-gunicorn-and-nginx/
 
+Rename .env-rename to .env and env.db-rename
+
+http://localhost:1337/ --> "Not Found The requested resource was not found on this server." because no page exists
+
+
 Docker-compose commands
     Dev:
     $ docker-compose up -d --build
